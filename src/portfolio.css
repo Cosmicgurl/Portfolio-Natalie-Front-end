@@ -27,3 +27,6 @@ a:hover {
   color: var(--background-color);
   transition: all 220ms;
 }
+.cover {
+  background-size: cover;
+}
