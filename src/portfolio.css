@@ -1,6 +1,7 @@
 :root {
   --background-color: black;
   --font-color: white;
+  --link-color-hover: rgb(214, 51, 132);
 }
 body {
   background-color: var(--background-color);
@@ -15,18 +16,86 @@ h1 {
 h2 {
   font-size: 22px;
 }
+h3 {
+  font-size:35px;
+}
 .head {
   text-align: center;
-  padding: 60px 20px;
+  padding: 90px 20px;
 }
 a {
   text-decoration: none;
   color:var(--font-color);
 }
 a:hover {
-  color: var(--background-color);
+  color: var(--link-color-hover);
   transition: all 220ms;
 }
-.cover {
-  background-size: cover;
+.secondheading {
+  opacity: 0.7;
+}
+.facebook {
+  font-size: 15px;
+}
+.instagramm {
+  font-size: 15px;
+}
+.x {
+  font-size: 15px;
+}
+.cover { 
+  max-height: 400px !important;
+  width: 225px !important;
+  padding: 0;
+}
+video {
+ border-radius: 10px;
+}
+.margin-container {
+  margin-top: 90px;
+}
+.headingColor {
+  color: var(--link-color-hover) !important;
+
+}
+
+  .firstRow {
+    border-radius: 10px;
+    height: 315px;
+  }
+ 
+  .secondRow {
+    border-radius: 10px;
+    height: 315px;
+  }
+@media (max-width: 600px){
+  h1 {
+    font-size: 43px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+.firstRow {
+  margin: 0 auto;
+  display: block;
+}
+h3 {
+  text-align: center;
+}
+.facebook {
+  display: none;
+}
+.instagramm {
+  display: none;
+}
+.x {
+  display: none;
+}
+#contact {
+ margin-bottom: 10px; 
+ text-align: center;
+}
+p {
+  text-align: center;
+}
 }

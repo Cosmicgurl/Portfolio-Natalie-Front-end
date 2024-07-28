@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Travel photos and videos from Natalie during her time in Latinamerica.">
   <script src="https://kit.fontawesome.com/aeb3f25d7b.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,14 +14,55 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/portfolio.css">
-  <title>Document</title>
+  <title>Photographer profile of Natalie Voigt</title>
 </head>
 <body>
-  <img class="cover" src="/images/coco 2.JPG" alt="beach" width="600px">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Natalie's page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link"  href="/about.html">About me</a>
+          <a class="nav-link" href="/about.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
   <div class="head">
-  <h1 class="mb-2">Natalie Voigt</h1>
-  <h2>Traveler and photographer based in Munich, Germany</h2>
-  <button type="button" class="btn btn-outline-light mt-3"><a href="/about.html">Photos</a></button>
+  <h1 class="mb-4">Natalie Voigt</h1>
+  <h2 class="secondheading mb-3"><i class="fa-solid fa-earth-americas"></i> Traveler and photographer based in Munich, Germany</h2>
+  
+ <div class="container mt-5">
+  <div class="row">
+    <div class="col">
+      <i class="fa-brands fa-instagram fa-2xl" style="color: #d63384;"><a class="instagramm" href="/about.html"> Instagramm</a></i>
+    </div>
+    <div class="col"><i class="fa-brands fa-facebook fa-2xl" style="color: #d63384;"><a class="facebook" href="/about.html"> Facebook</a></i>
+    </div>
+    <div class="col"><i class="fa-solid fa-x fa-2xl" style="color: #d63384;"><a class="x" href="/about.html"> X</a></i>
+    </div>
+  </div>
+ </div>
+  <div class="container-sm-fluid mt-5">
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-sm mt-3 p-0 ">
+       <video src="/videos/volcano.MOV" class="object-fit-sm-contain cover" controls muted ></video>
+      <p>Volcano Fuego, Guatemala</p>
+      </div>
+      <div class="col-sm mt-3 p-0 ">
+       <video src="/videos/sanjosedelpacifico.MOV" class="object-fit-sm-contain  cover" controls muted></video>
+       <p>San José del pacifico, México</p>
+      </div>
+      <div class="col-sm mt-3 p-0 ">
+       <video src="/videos/salento.MOV" class="object-fit-sm-contaim  cover" controls muted></video>
+       <p>Salento, Colombia</p>
+      </div>
+   
+  </div>
 </div>
 </body>
 </html>
