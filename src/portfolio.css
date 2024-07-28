@@ -58,6 +58,9 @@ video {
   color: var(--link-color-hover) !important;
 
 }
+.info {
+  color: var(--link-color-hover);
+}
 
   .firstRow {
     border-radius: 10px;
@@ -81,6 +84,7 @@ video {
 }
 h3 {
   text-align: center;
+  margin: 0;
 }
 .facebook {
   display: none;
@@ -97,5 +101,10 @@ h3 {
 }
 p {
   text-align: center;
+  opacity: 0.8;
+}
+.perfectfit {
+  max-width: 236px;
+  max-height: 260px;
 }
 }
