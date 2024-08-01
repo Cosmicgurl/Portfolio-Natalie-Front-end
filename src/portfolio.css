@@ -17,7 +17,9 @@ h2 {
   font-size: 22px;
 }
 h3 {
-  font-size:35px;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 900;
 }
 .head {
   text-align: center;
@@ -106,5 +108,13 @@ p {
 .perfectfit {
   max-width: 236px;
   max-height: 260px;
+}
+h3 {
+  font-size: 45px;
+}
+.button {
+ display: block;
+ text-align: center;
+margin-bottom: 20px;
 }
 }
