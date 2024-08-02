@@ -23,7 +23,7 @@ h3 {
 }
 .head {
   text-align: center;
-  padding: 90px 20px;
+  padding: 90px 20px 10px 20px;
 }
 a {
   text-decoration: none;
@@ -54,7 +54,10 @@ video {
  border-radius: 10px;
 }
 .margin-container {
-  margin-top: 90px;
+  margin-top: 20px;
+}
+.margin-container-about {
+  margin-top: 100px;
 }
 .headingColor {
   color: var(--link-color-hover) !important;
@@ -73,6 +76,10 @@ video {
     border-radius: 10px;
     height: 315px;
   }
+  #contact {
+    margin-bottom: 10px; 
+    text-align: center;
+   }
 @media (max-width: 600px){
   h1 {
     font-size: 43px;
@@ -80,6 +87,16 @@ video {
   h2 {
     font-size: 18px;
   }
+  .cover {
+    margin: 0 auto;
+    display: block;
+  }
+  .social {
+    display: none;
+  }
+.head {
+  padding-bottom: 5px;
+}
 .firstRow {
   margin: 0 auto;
   display: block;
