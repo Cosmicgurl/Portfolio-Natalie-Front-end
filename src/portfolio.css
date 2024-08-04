@@ -1,7 +1,7 @@
 :root {
   --background-color: black;
   --font-color: white;
-  --link-color-hover: rgb(214, 51, 132);
+  --link-color-hover: rgb(190, 92, 255);
 }
 body {
   background-color: var(--background-color);
@@ -9,11 +9,21 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--font-color);
+
+}
+#body {
+  background-image: url(/images/cow.jpg);
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.navcolor {
+color: var(--link-color-hover);
 }
 h1 {
-  font-size: 55px;
+  font-size: 65px;
   position: relative;
-  bottom: 20px;
+  top: 40px;
 }
 h2 {
   font-size: 22px;
@@ -27,10 +37,15 @@ h3 {
   text-align: center;
   padding: 130px 20px 180px 20px;
 }
-.background-image {
-background-image: url(/images/cow.jpeg);
-background-size: cover;
-
+.head h2 {
+  position: relative;
+  top: 60px;
+  opacity: 0.7;
+}
+.head-gallerie {
+  text-align: center;
+  padding: 90px 20px 80px 20px;
+  font-weight: 900;
 }
 a {
   text-decoration: none;
@@ -40,8 +55,8 @@ a:hover {
   color: var(--link-color-hover);
   transition: all 220ms;
 }
-.secondheading {
-  opacity: 0.7;
+button {
+  border: 1px solid var(--link-color-hover) !important;
 }
 .facebook {
   font-size: 15px;
@@ -60,30 +75,34 @@ a:hover {
 video {
  border-radius: 10px;
 }
-.margin-container {
-  margin-top: 20px;
-}
 .margin-container-about {
-  margin-top: 100px;
+  margin-top: 90px;
+}
+.margin-container-social {
+ padding: 20px;
+ margin-top: 60px;
+ max-width: 200px;
+ background-color: rgba(255,255,255,0.6);
+ border-radius: 30px;
+  ;
 }
 .headingColor {
   color: var(--link-color-hover) !important;
-
 }
 .info {
   color: var(--link-color-hover);
 }
 
-  .firstRow {
+.firstRow {
     border-radius: 10px;
     height: 315px;
   }
  
-  .secondRow {
+.secondRow {
     border-radius: 10px;
     height: 315px;
   }
-  #contact {
+#contact {
     margin-bottom: 10px; 
     text-align: center;
    }
@@ -98,9 +117,7 @@ video {
     margin: 0 auto;
     display: block;
   }
-  .social {
-    display: none;
-  }
+ 
 .head {
   padding-bottom: 5px;
 }
@@ -111,15 +128,8 @@ video {
 h3 {
   text-align: center;
   margin: 0;
-}
-.facebook {
-  display: none;
-}
-.instagramm {
-  display: none;
-}
-.x {
-  display: none;
+  font-size: 45px;
+  
 }
 #contact {
  margin-bottom: 10px; 
@@ -133,12 +143,15 @@ p {
   max-width: 236px;
   max-height: 260px;
 }
-h3 {
-  font-size: 45px;
-}
+
 .button {
  display: block;
  text-align: center;
 margin-bottom: 20px;
 }
+video {
+    margin: 0 auto;
+    display: block;
+  }
+
 }
