@@ -3,6 +3,9 @@
   --font-color: white;
   --link-color-hover: rgb(190, 92, 255);
 }
+html {
+  height: 100%;
+}
 body {
   background-color: var(--background-color);
   font-family: "Red Hat Display", sans-serif;
@@ -11,11 +14,12 @@ body {
   color: var(--font-color);
 
 }
-#body {
+#body-index {
   background-image: url(/images/cow.jpg);
   background-size: cover;
   height: 500px;
   background-repeat: no-repeat;
+  min-height: 100%;
 }
 .navcolor {
 color: var(--link-color-hover);
@@ -23,7 +27,7 @@ color: var(--link-color-hover);
 h1 {
   font-size: 65px;
   position: relative;
-  top: 40px;
+  top: 30px;
 }
 h2 {
   font-size: 22px;
@@ -33,9 +37,16 @@ h3 {
   line-height: 1;
   font-weight: 900;
 }
+h4 {
+  font-size: 90px;
+  font-weight: 900;
+}
 .head {
   text-align: center;
   padding: 130px 20px 180px 20px;
+}
+.head h1 {
+  font-size: 40px;
 }
 .head h2 {
   position: relative;
@@ -78,14 +89,7 @@ video {
 .margin-container-about {
   margin-top: 90px;
 }
-.margin-container-social {
- padding: 20px;
- margin-top: 60px;
- max-width: 200px;
- background-color: rgba(255,255,255,0.6);
- border-radius: 30px;
-  ;
-}
+
 .headingColor {
   color: var(--link-color-hover) !important;
 }
@@ -101,6 +105,10 @@ video {
 .secondRow {
     border-radius: 10px;
     height: 315px;
+  }
+  .social-content {
+    margin-top: 100px;
+    text-align: center;
   }
 #contact {
     margin-bottom: 10px; 
