@@ -25,8 +25,6 @@ body {
 color: var(--link-color-hover);
 }
 h1 {
-  font-size: 65px;
-  position: relative;
   top: 30px;
 }
 h2 {
@@ -42,6 +40,7 @@ h4 {
   font-weight: 900;
 }
 .head {
+  margin-top: 60px;
   text-align: center;
   padding: 130px 20px 180px 20px;
 }
@@ -49,14 +48,26 @@ h4 {
   font-size: 40px;
 }
 .head h2 {
-  position: relative;
-  top: 60px;
   opacity: 0.7;
+  margin-bottom: 20px;
 }
-.head-gallerie {
+.head-gallerie h1 {
   text-align: center;
   padding: 90px 20px 80px 20px;
   font-weight: 900;
+  font-size: 60px;
+}
+.index-button {
+  background-color: rgba(255,255,255,0.6);
+  border: 2px solid var(--link-color-hover)!important;
+  color: var(--link-color-hover);
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.index-button:hover{
+  background-color: var(--link-color-hover);
+  color: white;
 }
 a {
   text-decoration: none;
@@ -75,7 +86,7 @@ button {
 .instagramm {
   font-size: 15px;
 }
-.x {
+.github {
   font-size: 15px;
 }
 .cover { 
@@ -115,11 +126,22 @@ video {
     text-align: center;
    }
 @media (max-width: 600px){
-  h1 {
-    font-size: 43px;
+  .head h1 {
+    font-size: 23px !important;
+    text-align: center;
   }
   h2 {
     font-size: 18px;
+  }
+  h4 {
+    font-size: 44px;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+   margin-top: 40px;
+    font-size: 45px;
+    
   }
   .cover {
     margin: 0 auto;
@@ -127,21 +149,26 @@ video {
   }
  
 .head {
-  padding-bottom: 5px;
+  margin-top: 110px;
+}
+.index-button {
+  font-size: 19px;
+}
+.head-gallerie h1 {
+  font-size: 44px;
+  padding-bottom: 40px;
 }
 .firstRow {
   margin: 0 auto;
   display: block;
 }
-h3 {
-  text-align: center;
-  margin: 0;
-  font-size: 45px;
-  
-}
+
 #contact {
  margin-bottom: 10px; 
  text-align: center;
+}
+.margin-container-about {
+  margin-top: 50px;
 }
 p {
   text-align: center;
