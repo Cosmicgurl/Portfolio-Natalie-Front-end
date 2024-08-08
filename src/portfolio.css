@@ -17,7 +17,6 @@ body {
 #body-index {
   background-image: url(/images/cow.jpg);
   background-size: cover;
-  height: 500px;
   background-repeat: no-repeat;
   min-height: 100%;
 }
@@ -96,6 +95,7 @@ button {
 }
 video {
  border-radius: 10px;
+ margin-bottom: 100px;
 }
 .margin-container-about {
   margin-top: 90px;
